@@ -1,0 +1,11 @@
+# Ignore environment files in both client and server
+client/.env
+client/.env.local
+client/.env.development
+client/.env.production
+
+server/.env
+server/.env.local
+
+# Optional: ignore any env files anywhere in the project
+**/.env*
